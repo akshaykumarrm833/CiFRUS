@@ -38,14 +38,14 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 # Augmentation algorithms
-from cifrus import CiFRUS
+from cifrus.cifrus import CiFRUS
 from imblearn.under_sampling import RandomUnderSampler
 from imblearn.over_sampling import (RandomOverSampler,
                                     SMOTE,
                                     BorderlineSMOTE,
                                     SVMSMOTE,
                                     ADASYN)
-from gsmote import GeometricSMOTE
+from imblearn_extra.gsmote import GeometricSMOTE
 
 from sklearn.model_selection import StratifiedKFold
 
