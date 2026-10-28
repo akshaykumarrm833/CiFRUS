@@ -1,0 +1,10 @@
+-e .
+
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.1.0
+scikit-learn==1.9.1
+imbalanced-learn==0.14.2
+imbalanced-learn-extra==0.2.10
+requests==2.34.2
+ucimlrepo==0.0.7
